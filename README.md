@@ -21,11 +21,11 @@ python train.py data_dir --save_dir --arch --learning_rate --hidden_units --epoc
 | --------- | ------------|
 |data_dir   |       'Specify the image data directory'|  
 |--save_dir  |      'Specify directory to save checkpoints'|  
---arch            'Specify the model architecture default=\'vgg16\' also supported vgg13 and vgg19'  
---learning_rate   'Specify the laerning rate for your model default=0.01'  
---hidden_units',  'Specify the hidden units of your model default=512'  
---epochs',        'Specify the number of epochs default=20'  
---gpu             'Specify the use of gpu power over cpu'  
+|--arch      |      'Specify the model architecture default=\'vgg16\' also supported vgg13 and vgg19'|  
+|--learning_rate|   'Specify the laerning rate for your model default=0.01'|  
+|--hidden_units |  'Specify the hidden units of your model default=512'|  
+|--epochs |        'Specify the number of epochs default=20'|  
+|--gpu    |         'Specify the use of gpu power over cpu'|  
 
 example:  python train.py flowers --epochs 10 --gpu  
 
