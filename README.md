@@ -17,7 +17,10 @@ conda install jupyter notebook
 ##To train:
 python train.py data_dir --save_dir --arch --learning_rate --hidden_units --epochs --gpu
 
-|Parameter|Description|  
+| Feature | Supported | Notes |
+| ------- | --------- | ----- |
+| Dark Mode | Yes | Automatic |
+| Plugins | No | Coming soon |
 data_dir          'Specify the image data directory'  
 --save_dir        'Specify directory to save checkpoints'  
 --arch            'Specify the model architecture default=\'vgg16\' also supported vgg13 and vgg19'  
