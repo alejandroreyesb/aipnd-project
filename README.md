@@ -12,11 +12,11 @@ of course you need:
 
 conda install jupyter notebook
 
-##To run in command line you have the options:
+## To run in command line you have the options:  
 
-##To train:
-python train.py data_dir --save_dir --arch --learning_rate --hidden_units --epochs --gpu
-
+## To train:  
+python train.py data_dir --save_dir --arch --learning_rate --hidden_units --epochs --gpu  
+  
 | Parameter | Description |
 | --------- | ------------|
 |data_dir   |       'Specify the image data directory'|  
@@ -30,7 +30,7 @@ python train.py data_dir --save_dir --arch --learning_rate --hidden_units --epoc
 example:  python train.py flowers --epochs 10 --gpu  
 
 
-##To test:
-
+## To test:  
+  
 python predict.py  image_path checkpoint --topk --category_names --gpu
 
